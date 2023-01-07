@@ -1,0 +1,68 @@
+/* General styles */
+body {
+    font-family: sans-serif;
+    max-width: 600px;
+    margin: 0 auto;
+  }
+  
+  /* To-do list styles */
+  #todo-list {
+    margin-top: 30px;
+  }
+  
+  .todo-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+  
+  .todo-description {
+    margin-left: 10px;
+    flex-grow: 1;
+  }
+  
+  .todo-checkbox {
+    margin-right: 10px;
+  }
+  
+  .todo-delete {
+    background-color: red;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  /* Completed list styles */
+  #completed-list {
+    margin-top: 30px;
+  }
+  
+  /* Hide completed list by default */
+  .hidden {
+    display: none;
+  }
+  
+  /* Form styles */
+  #add-todo {
+    display: flex;
+    margin-top: 20px;
+  }
+  
+  #add-todo input {
+    flex-grow: 1;
+    padding: 5px 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  #add-todo button {
+    background-color: green;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  

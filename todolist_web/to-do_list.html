@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>To-Do List</title>
+</head>
+<body>
+  <!-- Home page -->
+  <div id="todo-list">
+    <h1>To-Do List</h1>
+    <!-- To-do items go here -->
+    <div class="todo-item">
+      <input type="checkbox" class="todo-checkbox">
+      <span class="todo-description">Take out the trash</span>
+      <button class="todo-delete">Delete</button>
+    </div>
+    <!-- Add to-do form -->
+    <form id="add-todo">
+      <input type="text" placeholder="Add new to-do...">
+      <button type="submit">Add</button>
+    </form>
+  </div>
+
+  <!-- Completed page -->
+  <div id="completed-list" class="hidden">
+    <h1>Completed List</h1>
+    <!-- Completed items go here -->
+    <div class="todo-item">
+      <input type="checkbox" class="todo-checkbox" checked>
+      <span class="todo-description">Buy groceries</span>
+      <button class="todo-delete">Delete</button>
+    </div>
+  </div>
+</body>
+</html>
+<link rel="stylesheet" type="text/css" href="D:\Python\my_project\todolist_web\style.css">
+<script src="D:\Python\my_project\todolist_web\script.js"></script>
+<form action="D:\Python\my_project\todolist_web\todolist_data.py" method="post">
+    <label>To-do item:</label>
+    <input type="text" name="description">
+    <input type="submit" value="Add">
+  </form>
+  
